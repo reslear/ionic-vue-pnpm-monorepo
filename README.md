@@ -6,3 +6,7 @@
 
 [VSCode](https://code.visualstudio.com/) + [Vue Language Features (Volar)
 ](https://marketplace.visualstudio.com/items?itemName=vue.volar)
+
+## License
+
+[MIT](./LICENSE) License © 2022-Present [reslear](https://github.com/reslear)
