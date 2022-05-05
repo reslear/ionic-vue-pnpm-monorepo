@@ -1,7 +1,7 @@
 # Getting Started with ViteJS, Ionic Framework v6 And VueJS PWA
 
 [ionic docs](https://ionicframework.com/docs/components)
-this is simple only pwa template is need configured capacitor iOS and Android see another templete https://github.com/reslear/ionic-vue-capacitor
+this is simple only pwa template is need configured capacitor iOS and Android see another templete [ionic-vue-capacitor](https://github.com/reslear/ionic-vue-capacitor)
 
 ## Recommended IDE Setup
 
