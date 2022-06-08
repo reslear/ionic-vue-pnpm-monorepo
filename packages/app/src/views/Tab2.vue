@@ -2,12 +2,14 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>Ionic Vite - Home</ion-title>
+        <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Ionic Vite - Tab2</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
-      <h1>Home</h1>
-      <ion-button router-link="/about">About</ion-button>
+      <h1>Tab2</h1>
     </ion-content>
   </ion-page>
 </template>
@@ -15,7 +17,8 @@
 <script lang="ts" setup>
 import {
   IonContent,
-  IonButton,
+  IonButtons,
+  IonBackButton,
   IonPage,
   IonHeader,
   IonTitle,

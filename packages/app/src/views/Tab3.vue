@@ -5,12 +5,11 @@
         <ion-buttons slot="start">
           <ion-back-button></ion-back-button>
         </ion-buttons>
-        <ion-title>Ionic Vite - About</ion-title>
+        <ion-title>Ionic Vite - Tab3</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
-      <h1>About</h1>
-      <!-- MODAL CODE -->
+      <h1>Tab3</h1>
       <ion-modal :is-open="modalIsOpen" @didDismiss="closeModal()">
         <about-modal @onClose="closeModal" />
       </ion-modal>
@@ -20,7 +19,7 @@
 </template>
 
 <script lang="ts" setup>
-import { defineComponent, ref } from 'vue'
+import { ref } from 'vue'
 import {
   IonContent,
   IonButton,
