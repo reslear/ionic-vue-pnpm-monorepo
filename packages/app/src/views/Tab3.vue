@@ -10,7 +10,11 @@
     </ion-header>
     <ion-content class="ion-padding">
       <h1>Tab3</h1>
-      <ion-modal :is-open="modalIsOpen" @didDismiss="closeModal()">
+      <ion-modal
+        :is-open="modalIsOpen"
+        @didDismiss="closeModal()"
+        :presenting-element="($parent as any).$refs.ionRouterOutlet"
+      >
         <about-modal @onClose="closeModal" />
       </ion-modal>
       <ion-button @click="showModal">Open Modal</ion-button>
